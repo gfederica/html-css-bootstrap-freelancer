@@ -4,6 +4,36 @@
     padding: 0;
 }
 
+
+/* debug heights */
+#ms_jumbotron {
+    height: 500px;
+    background-color: #1ABC9C;
+}
+.ms_portfolio-box {
+    height: 340px;
+    border-radius: 4px;
+}
+#ms_about {
+    background-color: #1ABC9C;
+    height: 800px;
+ }
+ #ms_contact {
+    height: 600px;
+}
+
+#ms_footer {
+    height: 500px;
+    background-color: #3A546D;
+}
+#ms_copyright {
+    height: 120px;
+    background-color: #2C3E50;
+}
+
+
+
+
 main {
     text-align: center;
 }
@@ -12,12 +42,25 @@ h1,
 h2,
 h3 {
     text-transform: uppercase;
-    color: white;
 }
 
 h1 {
     font-weight: 600;
     font-size: 32px;
+}
+h3 {
+    font-size: 18px;
+}
+
+
+
+#ms_portfolio,
+#ms_about {
+    margin-top: 30px;
+}
+
+#ms_left_align {
+    text-align: left;
 }
 
 /* fontawesome properties */
@@ -57,18 +100,38 @@ nav .row [class*="col-"] {
 
 /* jumbotron */
 
-#jumbotron {
-    height: 400px;
-    background-color: #1ABC9C;
-}
-
-
-#avatar {
+#ms_avatar {
     height: 250px;
 }
 
 /* portfolio */
-
-#portfolio {
-    height: 1200px;
+.ms_portfolio-frame
+ {
+    padding-top: 14px;
 }
+
+#ms_box-1 {
+    background-color: #BA4B63;
+}
+#ms_box-2 {
+    background-color: #1EA4B6;
+}
+#ms_box-3 {
+    background-color: #000000;
+}
+#ms_box-4 {
+    background-color: #1C83C1;
+}
+#ms_box-5 {
+    background-color: #0E38B5;
+}
+#ms_box-6 {
+    background-color: #CCB2A3;
+}
+
+
+/* about */
+
+
+
+/* contact */
