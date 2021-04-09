@@ -10,9 +10,11 @@
     height: 500px;
     background-color: #1ABC9C;
 }
-.ms_portfolio-box {
-    height: 340px;
-    border-radius: 4px;
+.ms_portfolio-frame {
+    height: 320px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 #ms_about {
     background-color: #1ABC9C;
@@ -48,15 +50,12 @@ h1 {
     font-weight: 600;
     font-size: 32px;
 }
-h3 {
-    font-size: 18px;
-}
-
 
 
 #ms_portfolio,
 #ms_about {
-    margin-top: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 #ms_left_align {
@@ -105,10 +104,6 @@ nav .row [class*="col-"] {
 }
 
 /* portfolio */
-.ms_portfolio-frame
- {
-    padding-top: 14px;
-}
 
 #ms_box-1 {
     background-color: #BA4B63;
