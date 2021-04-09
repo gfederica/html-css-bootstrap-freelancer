@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    color: white;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/* fontawesome properties */
+#ms_burger {
+    text-align: center;
+}
+#ms_burger .fa-bars {
+    color: lightgray;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+/* navbar */
+nav h3,
+#ms_burger {
+    line-height: 80px;
+}
+
+header {
+    background-color: #2C3E50;
+}
+
+nav .row {
+    height: 80px;
+    color: white;
+}
+nav .row .col-xs-5 h3 {
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+nav .row [class*="col-"] {
+    height: 100%;
+}
+
+/* jumbotron */
+
+#jumbotron {
+    height: 400px;
+    background-color: #1ABC9C;
+}
+
+
+#avatar {
+    height: 250px;
+}
+
+/* portfolio */
+
+#portfolio {
+    height: 1200px;
+}
