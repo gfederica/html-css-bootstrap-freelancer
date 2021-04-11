@@ -10,11 +10,11 @@
     height: 500px;
     background-color: #1ABC9C;
 }
-.ms_portfolio-frame {
+/* .ms_portfolio-frame  */
+[id*="ms_box"] {
+    height: ;
     height: 320px;
     border-radius: 8px;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 #ms_about {
     background-color: #1ABC9C;
@@ -34,15 +34,14 @@
 }
 
 
-
-
-main {
+body {
     text-align: center;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     text-transform: uppercase;
 }
 
@@ -50,7 +49,9 @@ h1 {
     font-weight: 600;
     font-size: 32px;
 }
-
+h3 {
+    font-size: 18px;
+}
 
 #ms_portfolio,
 #ms_about {
@@ -105,6 +106,7 @@ nav .row [class*="col-"] {
 
 /* portfolio */
 
+
 #ms_box-1 {
     background-color: #BA4B63;
 }
@@ -128,5 +130,38 @@ nav .row [class*="col-"] {
 /* about */
 
 
-
 /* contact */
+
+/* footer */
+
+
+
+
+@media screen and (min-width: 768px) {
+    #ms_about {
+        background-color: #1ABC9C;
+        height: 500px;    
+    }
+
+    #ms_contact {
+        height: 500px;
+    }
+
+    #ms_footer {
+        height: 200px;
+    }
+
+    #ms_copyright {
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 36px;
+    }
+    
+    nav .row .col-xs-5 h3 {
+        font-size: 20px;
+    }
+}
