@@ -1,0 +1,60 @@
+
+
+nav {
+    height: 80px;
+    text-transform: uppercase;    
+}
+nav h3 {
+    font-size: 24px;
+    font-weight:900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 80px;
+    display: inline-block;
+}
+
+.navbar-default {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.navbar-right {
+    height: 80px;
+}
+
+.navbar-right li a {
+    line-height: 80px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 15px;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1ABC9C;
+}
+
+@media screen and (max-width: 767px) {
+    nav h3 {
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background-color: #2C3E50;
+        height: 260px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #1ABC9C;
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 22px;
+    }
+    
+}
+

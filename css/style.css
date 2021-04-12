@@ -40,6 +40,65 @@ p {
     clear: both;
 }
 
+/* nav */
+
+nav {
+    height: 80px;
+    text-transform: uppercase;    
+}
+nav h3 {
+    font-size: 24px;
+    font-weight:900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 80px;
+    display: inline-block;
+}
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+}
+
+.navbar-default {
+    background-color: #2C3E50;
+    color: white;
+}
+.navbar-right {
+    height: 80px;
+}
+.navbar-right li a {
+    line-height: 80px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 15px;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1ABC9C;
+}
+ /* nav from phone */
+ nav h3 {
+    font-size: 18px;
+    padding-left: 15px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #2C3E50;
+    height: 260px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1ABC9C;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 22px;
+}
 
 /* glyphicons and dividers */
 .fa-star {
@@ -94,6 +153,7 @@ p {
 
 /* jumbotron */
 #ms_jumbotron {
+    margin-top: 80px;
     background-color: #1ABC9C;
     padding: 40px 0;
 }
@@ -104,7 +164,8 @@ p {
 }
 
 
-body {
+main,
+footer {
     text-align: center;
 }
 
@@ -123,9 +184,6 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 38px;
-}
-header h3 {
-    font-size: 18px;
 }
 h3 {
     font-size: 24px;
@@ -154,7 +212,6 @@ h3 {
 /* navbar */
 nav {
     height: 80px;
-    
     color: white;
 }
 
@@ -170,6 +227,7 @@ nav h3 {
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 80px;
+    padding-left: 15px;
 }
 
 
@@ -240,6 +298,16 @@ nav h3 {
 }
 #ms_form_message {
     padding-bottom: 160px;
+}
+
+.btn-default {
+    margin-top: 24px;
+    font-size:18px;
+    background-color: #1ABC9C;
+    color: white;
+    border: 0px;
+    padding: 18px 28px;
+    border-radius: 8px;
 }
 
 /* footer */
