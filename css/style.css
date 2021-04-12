@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* commons */
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -15,26 +16,36 @@ footer {
     color: white;
 }
 
+p {
+    font-size: 22px;
+}
+
+.ms_wrapper_80 {
+    width: 80%;
+}
+
 #ms_portfolio,
 #ms_contact {
     color: #2C3E50;
 }
 
 
+
+/* glyphicons and dividers */
 .fa-star {
     font-size: 36px;
     vertical-align: middle;
 }
+#ms_star_65 {
+    font-size: 32px;
+}
+#ms_about .ms_bar,
+#ms_contact .ms_bar {
+    width: 33%;
+    margin: 0px 5px;
+}
 .glyphicon-minus {
     width: 30px;
-}
-
-
-
-/* debug heights */
-#ms_jumbotron {
-    background-color: #1ABC9C;
-    padding: 40px 0;
 }
 
 .ms_bar {
@@ -42,8 +53,8 @@ footer {
     border: 2px solid white;
     background-color: white;
     border-radius: 2px;
-    width: 40%;
-    margin: 0px 3px;
+    width: 35%;
+    margin: 0px 10px;
     vertical-align: middle;
 }
 #ms_divider_line_height {
@@ -55,20 +66,70 @@ footer {
     background-color: #2C3E50;
 }
 
+.ms_btn p{
+    display: inline-block;
+    margin-left: 8px;
+}
+.fa-download {
+    font-size: 22px;
+}
 
-/* .ms_portfolio-frame  */
+
+
+/* jumbotron */
+#ms_jumbotron {
+    background-color: #1ABC9C;
+    padding: 40px 0;
+}
+
+/* .ms_portfolio-items  */
 [id*="ms_box"] {
-    height: 320px;
     border-radius: 8px;
 }
+[id*="ms_box"] img {
+    height: 320px;
+}
+
+
+/* about */
 #ms_about {
     padding: 50px 0;
     background-color: #1ABC9C;
-    height: 600px;
  }
- #ms_contact {
-    height: 600px;
+
+#ms_about .row {
+    margin-bottom: 30px;
 }
+
+
+/* contact with form */
+.form-horizontal {
+    margin-top: 40px;
+}
+.form-control {
+    border: 0;
+    box-shadow: none;
+    padding-left: 0px;
+}
+.form-control::placeholder {
+    color:#495057;
+    opacity: 0.8;
+    font-size: 22px;
+}
+.ms_form_underline {
+    padding: 30px 0;
+    border-bottom: 1px solid lightgray;
+}
+#ms_form_message {
+    padding-bottom: 160px;
+}
+
+
+
+
+
+
+
 
 #ms_footer {
     height: 400px;
@@ -100,6 +161,10 @@ h1 {
     font-weight: 900;
     font-size: 50px;
     margin-top: 50px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 38px;
 }
 header h3 {
     font-size: 18px;
@@ -183,9 +248,7 @@ nav h3 {
 
 
 /* about */
-.ms_wrapper_65 {
-    width: 65%;
-}
+
 
 /* contact */
 
@@ -197,8 +260,6 @@ nav h3 {
 @media screen and (min-width: 768px) {
     #ms_about {
         background-color: #1ABC9C;
-        height: 500px; 
-
     }
 
     #ms_contact {
