@@ -9,27 +9,33 @@
 #ms_jumbotron {
     height: 500px;
     background-color: #1ABC9C;
+    padding: 40px 0;
 }
 /* .ms_portfolio-frame  */
 [id*="ms_box"] {
-    height: ;
     height: 320px;
     border-radius: 8px;
 }
 #ms_about {
+    padding: 50px 0;
     background-color: #1ABC9C;
-    height: 800px;
+    height: 600px;
  }
  #ms_contact {
     height: 600px;
 }
 
 #ms_footer {
-    height: 500px;
-    background-color: #3A546D;
+    height: 400px;
+    padding: 90px 0;
 }
 #ms_copyright {
-    height: 120px;
+    height: 120px; 
+}
+#ms_footer_top {
+    background-color: #3A546D;
+}
+#ms_footer_bottom {
     background-color: #2C3E50;
 }
 
@@ -58,6 +64,9 @@ h3 {
     margin-top: 60px;
     margin-bottom: 60px;
 }
+.ms_portfolio_item {
+    margin: 15px 0;
+}
 
 #ms_left_align {
     text-align: left;
@@ -75,28 +84,26 @@ h3 {
 }
 
 /* navbar */
-nav h3,
-#ms_burger {
-    line-height: 80px;
+nav {
+    height: 80px;
+    
+    color: white;
 }
+
+
 
 header {
     background-color: #2C3E50;
 }
 
-nav .row {
-    height: 80px;
-    color: white;
-}
-nav .row .col-xs-5 h3 {
+nav h3 {
     font-size: 14px;
     font-weight: 800;
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 80px;
 }
-nav .row [class*="col-"] {
-    height: 100%;
-}
+
 
 /* jumbotron */
 
@@ -128,7 +135,9 @@ nav .row [class*="col-"] {
 
 
 /* about */
-
+.ms_wrapper_65 {
+    width: 65%;
+}
 
 /* contact */
 
@@ -140,15 +149,12 @@ nav .row [class*="col-"] {
 @media screen and (min-width: 768px) {
     #ms_about {
         background-color: #1ABC9C;
-        height: 500px;    
+        height: 500px; 
+
     }
 
     #ms_contact {
         height: 500px;
-    }
-
-    #ms_footer {
-        height: 200px;
     }
 
     #ms_copyright {
