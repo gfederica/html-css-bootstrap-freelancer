@@ -91,61 +91,6 @@ p {
 }
 
 
-/* about */
-#ms_about {
-    padding: 50px 0;
-    background-color: #1ABC9C;
- }
-
-#ms_about .row {
-    margin-bottom: 30px;
-}
-
-
-/* contact with form */
-.form-horizontal {
-    margin-top: 40px;
-}
-.form-control {
-    border: 0;
-    box-shadow: none;
-    padding-left: 0px;
-}
-.form-control::placeholder {
-    color:#495057;
-    opacity: 0.8;
-    font-size: 22px;
-}
-.ms_form_underline {
-    padding: 30px 0;
-    border-bottom: 1px solid lightgray;
-}
-#ms_form_message {
-    padding-bottom: 160px;
-}
-
-
-
-
-
-
-
-
-#ms_footer {
-    height: 400px;
-    padding: 90px 0;
-}
-#ms_copyright {
-    height: 120px; 
-}
-#ms_footer_top {
-    background-color: #3A546D;
-}
-#ms_footer_bottom {
-    background-color: #2C3E50;
-}
-
-
 body {
     text-align: center;
 }
@@ -234,7 +179,7 @@ nav h3 {
     background-color: #1EA4B6;
 }
 #ms_box-3 {
-    background-color: #000000;
+    background-color: #130F0F;
 }
 #ms_box-4 {
     background-color: #1C83C1;
@@ -248,11 +193,84 @@ nav h3 {
 
 
 /* about */
+#ms_about {
+    padding: 50px 0;
+    background-color: #1ABC9C;
+ }
+
+#ms_about .row {
+    margin-bottom: 30px;
+}
 
 
-/* contact */
+/* contact with form */
+.form-horizontal {
+    margin-top: 40px;
+}
+.form-control {
+    border: 0;
+    box-shadow: none;
+    padding-left: 0px;
+}
+.form-control::placeholder {
+    color:#495057;
+    opacity: 0.8;
+    font-size: 22px;
+}
+.ms_form_underline {
+    padding: 30px 0;
+    border-bottom: 1px solid lightgray;
+}
+#ms_form_message {
+    padding-bottom: 160px;
+}
 
 /* footer */
+
+#ms_footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#ms_footer {;
+    margin-bottom: 0px;
+    margin-top:40px;
+}
+#ms_footer h3 {
+    font-weight: 700;
+}
+#ms_footer p {
+    margin: 0;
+}
+#ms_footer [class*="col-"] {
+    margin-bottom: 24px;
+}
+
+.ms_round_btn {
+    border: 3px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.ms_round_btn i {
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+
+}
+
+#ms_footer_top {
+    background-color: #2C3E50;
+}
+#ms_footer_bottom {
+    background-color: #1A252F;
+}
+#ms_footer_bottom h6 {
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
 
 
 
