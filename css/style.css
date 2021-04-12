@@ -4,13 +4,58 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header,
+#ms_jumbotron,
+#ms_about,
+footer {
+    color: white;
+}
+
+#ms_portfolio,
+#ms_contact {
+    color: #2C3E50;
+}
+
+
+.fa-star {
+    font-size: 36px;
+    vertical-align: middle;
+}
+.glyphicon-minus {
+    width: 30px;
+}
+
+
 
 /* debug heights */
 #ms_jumbotron {
-    height: 500px;
     background-color: #1ABC9C;
     padding: 40px 0;
 }
+
+.ms_bar {
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 2px;
+    width: 40%;
+    margin: 0px 3px;
+    vertical-align: middle;
+}
+#ms_divider_line_height {
+    height: 80px;
+    line-height: 80px;
+}
+#ms_blue_bar {
+    border: 2px solid #2C3E50;
+    background-color: #2C3E50;
+}
+
+
 /* .ms_portfolio-frame  */
 [id*="ms_box"] {
     height: 320px;
@@ -52,11 +97,15 @@ h4 {
 }
 
 h1 {
-    font-weight: 600;
-    font-size: 32px;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 50px;
+}
+header h3 {
+    font-size: 18px;
 }
 h3 {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 #ms_portfolio,
@@ -72,7 +121,6 @@ h3 {
     text-align: left;
 }
 
-/* fontawesome properties */
 #ms_burger {
     text-align: center;
 }
@@ -97,8 +145,8 @@ header {
 }
 
 nav h3 {
-    font-size: 14px;
-    font-weight: 800;
+    font-size: 22px;
+    font-weight:900;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 80px;
@@ -108,7 +156,7 @@ nav h3 {
 /* jumbotron */
 
 #ms_avatar {
-    height: 250px;
+    height: 280px;
 }
 
 /* portfolio */
