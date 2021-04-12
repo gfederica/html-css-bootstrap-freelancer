@@ -29,6 +29,16 @@ p {
     color: #2C3E50;
 }
 
+#ms_contact::after,
+#ms_about::after,
+#ms_portfolio::after,
+#ms_footer::after,
+#ms_footer_top::after,
+#ms_footer_bottom::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
 /* glyphicons and dividers */
@@ -43,9 +53,6 @@ p {
 #ms_contact .ms_bar {
     width: 33%;
     margin: 0px 5px;
-}
-.glyphicon-minus {
-    width: 30px;
 }
 
 .ms_bar {
@@ -83,11 +90,8 @@ p {
 }
 
 /* .ms_portfolio-items  */
-[id*="ms_box"] {
-    border-radius: 8px;
-}
 [id*="ms_box"] img {
-    height: 320px;
+    max-width: 100%;
 }
 
 
@@ -122,9 +126,6 @@ h3 {
 #ms_about {
     margin-top: 60px;
     margin-bottom: 60px;
-}
-.ms_portfolio_item {
-    margin: 15px 0;
 }
 
 #ms_left_align {
@@ -171,6 +172,13 @@ nav h3 {
 
 /* portfolio */
 
+.ms_portfolio_item {
+    margin: 15px 0;
+}
+.ms_portfolio_item  img{
+    
+    border-radius: 8px;
+}
 
 #ms_box-1 {
     background-color: #BA4B63;
@@ -227,12 +235,6 @@ nav h3 {
 
 /* footer */
 
-#ms_footer::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 #ms_footer {;
     margin-bottom: 0px;
     margin-top:40px;
@@ -276,25 +278,35 @@ nav h3 {
 
 
 @media screen and (min-width: 768px) {
-    #ms_about {
-        background-color: #1ABC9C;
-    }
-
-    #ms_contact {
-        height: 500px;
-    }
-
-    #ms_copyright {
-        height: 80px;
+    .ms_round_btn i {
+        color: white;
+        font-size: 14px;
+        padding: 16px;
+    
     }
 }
 
 @media screen and (min-width: 992px) {
-    h1 {
-        font-size: 36px;
+    .ms_wrapper_80 {
+        width: 65%;
     }
     
-    nav .row .col-xs-5 h3 {
-        font-size: 20px;
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 46px;
+    }
+    
+    nav h3 {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .ms_bar,
+    #ms_about .ms_bar,
+    #ms_contact .ms_bar {
+        width: 20%;
     }
 }
