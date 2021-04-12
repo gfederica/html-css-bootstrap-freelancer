@@ -73,14 +73,23 @@ p {
     background-color: #2C3E50;
 }
 
-.ms_btn p{
+.ms_button p{
     display: inline-block;
     margin-left: 8px;
+    margin-bottom: 0;
 }
 .fa-download {
     font-size: 22px;
 }
 
+
+/* buttons */
+.ms_button {
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 8px 0;
+    margin: 0 26px;
+}
 
 
 /* jumbotron */
