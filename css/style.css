@@ -99,6 +99,9 @@ nav h3 {
 .navbar-default .navbar-toggle {
     margin-top: 22px;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form  {
+border: 0px  ;
+}
 
 /* glyphicons and dividers */
 .fa-star {
@@ -158,10 +161,6 @@ nav h3 {
     padding: 40px 0;
 }
 
-/* .ms_portfolio-items  */
-[id*="ms_box"] img {
-    max-width: 100%;
-}
 
 
 main,
@@ -241,10 +240,12 @@ nav h3 {
 
 .ms_portfolio_item {
     margin: 15px 0;
-}
-.ms_portfolio_item  img{
-    
+    overflow: hidden;
     border-radius: 8px;
+}
+
+[id*="ms_box"] img {
+    max-width: 100%;
 }
 
 #ms_box-1 {
@@ -327,15 +328,14 @@ nav h3 {
 }
 
 .ms_round_btn {
-    border: 3px solid white;
-    border-radius: 50%;
-    display: inline-block;
+    list-style-type: none;
 }
-.ms_round_btn i {
+.ms_round_btn li {
     color: white;
     font-size: 20px;
-    padding: 16px;
-
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
 }
 
 #ms_footer_top {
